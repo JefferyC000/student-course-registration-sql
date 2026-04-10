@@ -1,28 +1,39 @@
-# Student Course Registration Database
+# Student Grade Tracker
 
-This project is a relational database system built in SQL for managing students, instructors, courses, and enrollments.
+This is a simple Python + SQLite application that allows users to manage student records through a command-line interface.
 
 ## Features
-- Multiple related tables
-- Primary and foreign keys
-- Sample academic data
-- Complex queries using joins and aggregation
-- View for summarized data
+- Add a student
+- View all students
+- Update student grade
+- Delete a student
 
-## Files
-- schema.sql
-- inserts.sql
-- queries.sql
-- view.sql
-- screenshot5.png
+## Technologies Used
+- Python (SQLite3)
+- SQL (SQLite)
 
-## Example Screenshot
-![Project Screenshot](screenshot6.png)
+## How to Run
+1. Open the project in VS Code
+2. Run the program:
+   python3.12 app.py
 
-## Skills Demonstrated
-- SQL
-- Database design
-- Joins
-- Group By
-- Aggregate functions
-- Views
+## Project Structure
+- app.py → main application logic
+- students.db → SQLite database
+- schema.sql → table structure
+- inserts.sql → sample insert queries
+- queries.sql → example queries
+- view.sql → SQL view for student data
+
+## Screenshots
+
+### Application Menu
+![Menu Screenshot](screenshot5.png)
+
+### Program Output
+![Output Screenshot](screenshot7.png)
+
+## What I Learned
+- How to connect Python to a SQL database
+- How to perform CRUD operations
+- How to structure a simple database application
