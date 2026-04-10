@@ -28,10 +28,10 @@ This is a simple Python + SQLite application that allows users to manage student
 ## Screenshots
 
 ### Application Menu
-![Menu Screenshot](screenshot5.png)
+![Menu Screenshot](screenshot6.png)
 
 ### Program Output
-![Output Screenshot](screenshot7.png)
+![Output Screenshot](Screenshot7.png)
 
 ## What I Learned
 - How to connect Python to a SQL database
